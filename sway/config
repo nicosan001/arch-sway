@@ -83,7 +83,10 @@ bindsym XF86MonBrightnessDown exec lightctl down
 exec "avizo-service"
 
 bindsym mod1+Shift+BackSpace exec $powermenu_path
-  
+
+# Screen shot
+bindsym $mod+z exec grim -g "$(slurp -d)" - | wl-copy
+
 ## Application start
 exec {
   mako
