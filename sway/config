@@ -86,6 +86,7 @@ bindsym mod1+Shift+BackSpace exec $powermenu_path
 
 # Screen shot
 bindsym $mod+z exec grim -g "$(slurp -d)" - | wl-copy
+bindsym mod1+y exec $youtube_watch_path
 
 ## Application start
 exec {
@@ -107,6 +108,7 @@ exec {
 set $idle_path ~/.config/sway/scripts/idle.sh
 set $lock_path ~/.config/sway/scripts/lock.sh
 set $powermenu_path ~/.config/sway/scripts/powermenu.sh
+set $youtube_watch_path ~/.config/sway/scripts/youtube-watch.sh
 
 ## fixes
 for_window [app_id="flameshot"] floating enable, fullscreen disable, move absolute position 0 0, border pixel 0
