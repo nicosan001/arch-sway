@@ -123,7 +123,7 @@ alias ls="exa -lah --icons --git"
 alias l="exa -lah --icons --git"
 alias btctl="bluetoothctl"
 alias shot="slurp | grim -g - - | wl-copy"
-
+alias mpv="mpv --script-opts=ytdl_hook-ytdl_path=yt-dlp"
 
 # auto add some keys
 
