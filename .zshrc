@@ -124,6 +124,8 @@ alias l="exa -lah --icons --git"
 alias btctl="bluetoothctl"
 alias shot="slurp | grim -g - - | wl-copy"
 alias mpv="mpv --script-opts=ytdl_hook-ytdl_path=yt-dlp"
+alias g++="g++ -std=c++11 -O2 -Wall"
+alias polkit-stuff="xhost si:localuser:root"
 
 # auto add some keys
 
